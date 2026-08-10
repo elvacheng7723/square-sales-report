@@ -1,19 +1,19 @@
 {
   "date": "2026-08-10",
-  "generatedAt": "2026-08-10T12:11:39.439Z",
-  "ordersCount": 30,
-  "chipsSalesCents": 10424,
+  "generatedAt": "2026-08-10T12:39:35.354Z",
+  "ordersCount": 32,
+  "chipsSalesCents": 10724,
   "chipsSalesByChannel": {
-    "堂食/自有渠道": 10424
+    "堂食/自有渠道": 10724
   },
-  "chipsPortionFromPacksQty": 0,
+  "chipsPortionFromPacksQty": 2,
   "qtySummary": {
     "Squid Ring": {
       "category": "Seafood",
       "byChannel": {
-        "堂食/自有渠道": 40
+        "堂食/自有渠道": 48
       },
-      "total": 40
+      "total": 48
     },
     "Hake Large": {
       "category": "Fish",
@@ -25,9 +25,9 @@
     "Potato Scallop": {
       "category": "Old Favourites",
       "byChannel": {
-        "堂食/自有渠道": 5
+        "堂食/自有渠道": 6
       },
-      "total": 5
+      "total": 6
     },
     "Spring Roll": {
       "category": "Old Favourites",
@@ -39,9 +39,9 @@
     "Sauce portions": {
       "category": "Extras",
       "byChannel": {
-        "堂食/自有渠道": 4
+        "堂食/自有渠道": 7
       },
-      "total": 4
+      "total": 7
     },
     "Tomato Sauce Jar": {
       "category": "Extras",
@@ -53,23 +53,23 @@
     "Hake Small": {
       "category": "Fish",
       "byChannel": {
-        "堂食/自有渠道": 22
+        "堂食/自有渠道": 27
       },
-      "total": 22
+      "total": 27
     },
     "Sea Scallops": {
       "category": "Seafood",
       "byChannel": {
-        "堂食/自有渠道": 8
+        "堂食/自有渠道": 10
       },
-      "total": 8
+      "total": 10
     },
     "Pineapple Fritter": {
       "category": "Something Sweet",
       "byChannel": {
-        "堂食/自有渠道": 2
+        "堂食/自有渠道": 3
       },
-      "total": 2
+      "total": 3
     },
     "Dim Sim": {
       "category": "Old Favourites",
@@ -88,9 +88,16 @@
     "Crab Sticks": {
       "category": "Seafood",
       "byChannel": {
-        "堂食/自有渠道": 8
+        "堂食/自有渠道": 11
       },
-      "total": 8
+      "total": 11
+    },
+    "Prawns": {
+      "category": "Seafood Basket 拆分",
+      "byChannel": {
+        "堂食/自有渠道": 13
+      },
+      "total": 13
     },
     "Tartare Sauce Jar": {
       "category": "Extras",
@@ -99,15 +106,15 @@
       },
       "total": 1
     },
-    "Prawns": {
-      "category": "Seafood",
+    "Silver Whiting": {
+      "category": "Fish",
       "byChannel": {
-        "堂食/自有渠道": 9
+        "堂食/自有渠道": 1
       },
-      "total": 9
+      "total": 1
     },
-    "Pickled Onions(Jar)": {
-      "category": "Extras",
+    "Oysters": {
+      "category": "Seafood",
       "byChannel": {
         "堂食/自有渠道": 1
       },
@@ -116,9 +123,16 @@
     "Spanish Mackerel": {
       "category": "Fish",
       "byChannel": {
-        "堂食/自有渠道": 3
+        "堂食/自有渠道": 4
       },
-      "total": 3
+      "total": 4
+    },
+    "Pickled Onions(Jar)": {
+      "category": "Extras",
+      "byChannel": {
+        "堂食/自有渠道": 1
+      },
+      "total": 1
     },
     "Fremantle Sardines - 6 per serve": {
       "category": "Seafood",

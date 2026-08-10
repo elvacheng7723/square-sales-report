@@ -1,39 +1,44 @@
-共拉取到 30 笔已完成订单
+共拉取到 32 笔已完成订单
 
 =========== 2026-08-10 销售汇总 ===========
 
-【薯条 Gross Sales 总额】 $104.24
-  - 堂食/自有渠道: $104.24
+【薯条 Gross Sales 总额】 $107.24
+  - 堂食/自有渠道: $107.24
+  提示: 另有 2 份薯条来自 Seafood Basket 等套餐,因套餐打包定价、无法拆出单独售价,未计入上面的金额统计。
 
 【商品数量汇总(按渠道拆分)】
 
 -- Seafood --
-  Squid Ring  合计 40  (堂食/自有渠道: 40)
-  Prawns  合计 9  (堂食/自有渠道: 9)
-  Sea Scallops  合计 8  (堂食/自有渠道: 8)
-  Crab Sticks  合计 8  (堂食/自有渠道: 8)
+  Squid Ring  合计 48  (堂食/自有渠道: 48)
+  Crab Sticks  合计 11  (堂食/自有渠道: 11)
+  Sea Scallops  合计 10  (堂食/自有渠道: 10)
+  Oysters  合计 1  (堂食/自有渠道: 1)
   Fremantle Sardines - 6 per serve  合计 1  (堂食/自有渠道: 1)
 
 -- Fish --
-  Hake Small  合计 22  (堂食/自有渠道: 22)
+  Hake Small  合计 27  (堂食/自有渠道: 27)
   Hake Large  合计 9  (堂食/自有渠道: 9)
-  Spanish Mackerel  合计 3  (堂食/自有渠道: 3)
+  Spanish Mackerel  合计 4  (堂食/自有渠道: 4)
+  Silver Whiting  合计 1  (堂食/自有渠道: 1)
 
 -- Old Favourites --
   Dim Sim  合计 7  (堂食/自有渠道: 7)
-  Potato Scallop  合计 5  (堂食/自有渠道: 5)
+  Potato Scallop  合计 6  (堂食/自有渠道: 6)
   Spring Roll  合计 2  (堂食/自有渠道: 2)
   Fish Cake  合计 1  (堂食/自有渠道: 1)
   Chiko Roll  合计 1  (堂食/自有渠道: 1)
 
 -- Extras --
-  Sauce portions  合计 4  (堂食/自有渠道: 4)
+  Sauce portions  合计 7  (堂食/自有渠道: 7)
   Tomato Sauce Jar  合计 2  (堂食/自有渠道: 2)
   Tartare Sauce Jar  合计 1  (堂食/自有渠道: 1)
   Pickled Onions(Jar)  合计 1  (堂食/自有渠道: 1)
 
 -- Something Sweet --
-  Pineapple Fritter  合计 2  (堂食/自有渠道: 2)
+  Pineapple Fritter  合计 3  (堂食/自有渠道: 3)
 
 -- Drinks --
   Cans  合计 5  (堂食/自有渠道: 5)
+
+-- Seafood Basket 拆分 --
+  Prawns  合计 13  (堂食/自有渠道: 13)
