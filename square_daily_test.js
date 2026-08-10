@@ -167,13 +167,18 @@ async function fetchAllOrders() {
       location_ids: [LOCATION_ID],
       query: {
         filter: {
+          // 改用 created_at 筛选,而不是 closed_at:
+          // 如果订单是"开台"模式(付款后没有立刻手动关闭),closed_at可能一直是空的,
+          // 用 closed_at 筛选会把这些订单整单漏掉。created_at 在订单一创建就有值,更不容易漏单。
           date_time_filter: {
-            closed_at: {
+            created_at: {
               start_at: `${TARGET_DATE}T00:00:00${TIMEZONE_OFFSET}`,
               end_at: `${TARGET_DATE}T23:59:59${TIMEZONE_OFFSET}`,
             },
           },
-          state_filter: { states: ["COMPLETED"] },
+          // 不再只要 COMPLETED,连 OPEN(可能还没手动关台,但已经付过款)也一起拉,
+          // 具体是否"已付款"在下面用 tenders 字段再筛一次,避免把没付钱的空单也算进去。
+          state_filter: { states: ["COMPLETED", "OPEN"] },
         },
       },
       limit: 100,
@@ -197,7 +202,11 @@ async function fetchAllOrders() {
       process.exit(1);
     }
 
-    orders.push(...(data.orders || []));
+    // 只保留真正有付款记录的订单(排除还没结账的空/未付款订单)
+    const paidOrders = (data.orders || []).filter(
+      (o) => Array.isArray(o.tenders) && o.tenders.length > 0
+    );
+    orders.push(...paidOrders);
     cursor = data.cursor;
   } while (cursor);
 
@@ -208,8 +217,10 @@ function classifyChannel(order) {
   const tenders = order.tenders || [];
   for (const tender of tenders) {
     const noteOrType = tender.type === "OTHER" ? tender.note : tender.type;
+    if (!noteOrType) continue;
+    const noteOrTypeLower = noteOrType.toLowerCase();
     for (const [channel, tenderName] of Object.entries(CHANNEL_TENDER_NAMES)) {
-      if (noteOrType && noteOrType.includes(tenderName)) {
+      if (noteOrTypeLower.includes(tenderName.toLowerCase())) {
         return channel;
       }
     }
@@ -294,8 +305,7 @@ function centsToDollarStr(cents) {
 async function main() {
   const orders = await fetchAllOrders();
 
-  const state = createState();
-  for (const order of orders) {
+  const state = createState();  for (const order of orders) {
     const channel = classifyChannel(order);
     const lineItems = order.line_items || [];
     for (const item of lineItems) {
