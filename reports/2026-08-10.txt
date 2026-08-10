@@ -1,0 +1,39 @@
+共拉取到 22 笔已完成订单
+
+=========== 2026-08-10 销售汇总 ===========
+
+【薯条 Gross Sales 总额】 $74.07
+  - 堂食/自有渠道: $74.07
+
+【商品数量汇总(按渠道拆分)】
+
+-- Seafood --
+  Squid Ring  合计 22  (堂食/自有渠道: 22)
+  Prawns  合计 9  (堂食/自有渠道: 9)
+  Crab Sticks  合计 8  (堂食/自有渠道: 8)
+  Sea Scallops  合计 4  (堂食/自有渠道: 4)
+  Fremantle Sardines - 6 per serve  合计 1  (堂食/自有渠道: 1)
+
+-- Something Sweet --
+  Pineapple Fritter  合计 2  (堂食/自有渠道: 2)
+
+-- Old Favourites --
+  Dim Sim  合计 7  (堂食/自有渠道: 7)
+  Potato Scallop  合计 4  (堂食/自有渠道: 4)
+  Spring Roll  合计 1  (堂食/自有渠道: 1)
+  Fish Cake  合计 1  (堂食/自有渠道: 1)
+  Chiko Roll  合计 1  (堂食/自有渠道: 1)
+
+-- Drinks --
+  Cans  合计 5  (堂食/自有渠道: 5)
+
+-- Fish --
+  Hake Small  合计 21  (堂食/自有渠道: 21)
+  Hake Large  合计 7  (堂食/自有渠道: 7)
+  Spanish Mackerel  合计 3  (堂食/自有渠道: 3)
+
+-- Extras --
+  Sauce portions  合计 1  (堂食/自有渠道: 1)
+  Tartare Sauce Jar  合计 1  (堂食/自有渠道: 1)
+  Pickled Onions(Jar)  合计 1  (堂食/自有渠道: 1)
+  Tomato Sauce Jar  合计 1  (堂食/自有渠道: 1)

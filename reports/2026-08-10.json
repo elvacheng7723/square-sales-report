@@ -1,0 +1,146 @@
+{
+  "date": "2026-08-10",
+  "generatedAt": "2026-08-10T11:14:03.775Z",
+  "ordersCount": 22,
+  "chipsSalesCents": 7407,
+  "chipsSalesByChannel": {
+    "堂食/自有渠道": 7407
+  },
+  "chipsPortionFromPacksQty": 0,
+  "qtySummary": {
+    "Squid Ring": {
+      "category": "Seafood",
+      "byChannel": {
+        "堂食/自有渠道": 22
+      },
+      "total": 22
+    },
+    "Pineapple Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "堂食/自有渠道": 2
+      },
+      "total": 2
+    },
+    "Dim Sim": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "堂食/自有渠道": 7
+      },
+      "total": 7
+    },
+    "Cans": {
+      "category": "Drinks",
+      "byChannel": {
+        "堂食/自有渠道": 5
+      },
+      "total": 5
+    },
+    "Hake Large": {
+      "category": "Fish",
+      "byChannel": {
+        "堂食/自有渠道": 7
+      },
+      "total": 7
+    },
+    "Potato Scallop": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "堂食/自有渠道": 4
+      },
+      "total": 4
+    },
+    "Crab Sticks": {
+      "category": "Seafood",
+      "byChannel": {
+        "堂食/自有渠道": 8
+      },
+      "total": 8
+    },
+    "Sauce portions": {
+      "category": "Extras",
+      "byChannel": {
+        "堂食/自有渠道": 1
+      },
+      "total": 1
+    },
+    "Hake Small": {
+      "category": "Fish",
+      "byChannel": {
+        "堂食/自有渠道": 21
+      },
+      "total": 21
+    },
+    "Tartare Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "堂食/自有渠道": 1
+      },
+      "total": 1
+    },
+    "Prawns": {
+      "category": "Seafood",
+      "byChannel": {
+        "堂食/自有渠道": 9
+      },
+      "total": 9
+    },
+    "Sea Scallops": {
+      "category": "Seafood",
+      "byChannel": {
+        "堂食/自有渠道": 4
+      },
+      "total": 4
+    },
+    "Pickled Onions(Jar)": {
+      "category": "Extras",
+      "byChannel": {
+        "堂食/自有渠道": 1
+      },
+      "total": 1
+    },
+    "Spring Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "堂食/自有渠道": 1
+      },
+      "total": 1
+    },
+    "Spanish Mackerel": {
+      "category": "Fish",
+      "byChannel": {
+        "堂食/自有渠道": 3
+      },
+      "total": 3
+    },
+    "Fremantle Sardines - 6 per serve": {
+      "category": "Seafood",
+      "byChannel": {
+        "堂食/自有渠道": 1
+      },
+      "total": 1
+    },
+    "Fish Cake": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "堂食/自有渠道": 1
+      },
+      "total": 1
+    },
+    "Chiko Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "堂食/自有渠道": 1
+      },
+      "total": 1
+    },
+    "Tomato Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "堂食/自有渠道": 1
+      },
+      "total": 1
+    }
+  },
+  "unknownItems": []
+}
