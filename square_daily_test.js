@@ -141,8 +141,8 @@ for (const [category, origin, target, ratio] of ITEM_ROWS) {
 }
 
 // --- Packs 页: 组合商品拆分, 每卖出1份"Seafood Basket"按下面数量拆给对应商品 ---
-// 注意: "$2 Chips" 这份是套餐内含,Square不会给它单独的销售金额,
-// 所以这里只统计份数,不会计入"薯条总营业额"。
+// 注意: "$2 Chips" 这份套餐内含,Square不会给它单独的销售金额,
+// 这里按你说的口径,固定按每份 $2(200分)计入薯条营业额。
 const PACKS = {
   "seafood basket": [
     { target: "Hake Small", qty: 2 },
@@ -150,7 +150,7 @@ const PACKS = {
     { target: "Sea Scallops", qty: 1 },
     { target: "Crab Sticks", qty: 1 },
     { target: "Squid Ring", qty: 4 },
-    { target: "$2 Chips", qty: 1, isChipsPortion: true },
+    { target: "$2 Chips", qty: 1, isChipsPortion: true, chipsPriceCents: 200 },
   ],
 };
 
@@ -213,7 +213,9 @@ async function fetchAllOrders() {
   return orders;
 }
 
+// 判断一笔订单属于哪个销售渠道: Uber Eats / DoorDash / Square线上 / 线下
 function classifyChannel(order) {
+  // 1) 先看有没有专门代表 Uber Eats / DoorDash 的自定义支付方式
   const tenders = order.tenders || [];
   for (const tender of tenders) {
     const noteOrType = tender.type === "OTHER" ? tender.note : tender.type;
@@ -225,7 +227,16 @@ function classifyChannel(order) {
       }
     }
   }
-  return "堂食/自有渠道";
+
+  // 2) 再看订单来源,判断是不是通过 Square 自己的网店/线上点餐下的单
+  //    (Square Online 生成的订单 source.name 里通常会带 "online" 字样)
+  const sourceName = ((order.source && order.source.name) || "").toLowerCase();
+  if (sourceName.includes("online")) {
+    return "Square线上";
+  }
+
+  // 3) 剩下的就是收银机现场打的单
+  return "线下";
 }
 
 // ============================================================
@@ -236,10 +247,12 @@ function createState() {
   return {
     chipsSalesCents: 0,
     chipsSalesByChannel: {},
-    chipsPortionFromPacksQty: 0, // 套餐里包含但没有独立售价的薯条份数,仅作参考
+    chipsPortionFromPacksQty: 0, // 来自套餐(如Seafood Basket)的薯条份数,按每份$2计入薯条营业额
     // qtySummary: { target: { category, byChannel: { channel: qty }, total } }
     qtySummary: {},
     unknown: [], // 未在任何映射表中出现的商品
+    // channelSummary: { channel: { revenueCents, orderCount } } - 各渠道总销售额(所有商品,不限薯条)
+    channelSummary: {},
   };
 }
 
@@ -275,7 +288,11 @@ function processLineItem(item, channel, state) {
   if (packItems) {
     for (const p of packItems) {
       if (p.isChipsPortion) {
-        state.chipsPortionFromPacksQty += p.qty * qty;
+        const portions = p.qty * qty;
+        state.chipsPortionFromPacksQty += portions;
+        const gross = portions * (p.chipsPriceCents || 0);
+        state.chipsSalesCents += gross;
+        state.chipsSalesByChannel[channel] = (state.chipsSalesByChannel[channel] || 0) + gross;
         continue;
       }
       addQty(state, p.target, `${rawName} 拆分`, channel, p.qty * qty);
@@ -305,9 +322,21 @@ function centsToDollarStr(cents) {
 async function main() {
   const orders = await fetchAllOrders();
 
-  const state = createState();  for (const order of orders) {
+  const state = createState();
+  for (const order of orders) {
     const channel = classifyChannel(order);
     const lineItems = order.line_items || [];
+
+    // 统计这笔订单的总营业额(所有商品,不限薯条),按渠道汇总
+    if (!state.channelSummary[channel]) {
+      state.channelSummary[channel] = { revenueCents: 0, orderCount: 0 };
+    }
+    state.channelSummary[channel].orderCount += 1;
+    for (const item of lineItems) {
+      const gross = (item.gross_sales_money && item.gross_sales_money.amount) || 0;
+      state.channelSummary[channel].revenueCents += gross;
+    }
+
     for (const item of lineItems) {
       processLineItem(item, channel, state);
     }
@@ -320,14 +349,32 @@ async function main() {
   log(`共拉取到 ${orders.length} 笔已完成订单\n`);
   log(`=========== ${TARGET_DATE} 销售汇总 ===========\n`);
 
+  // --- 各渠道总营业额(所有商品) ---
+  log("【各渠道总营业额】");
+  const channelOrder = ["线下", "Square线上", "Uber Eats", "DoorDash"];
+  const seenChannels = new Set(channelOrder);
+  const allChannelNames = [
+    ...channelOrder,
+    ...Object.keys(state.channelSummary).filter((c) => !seenChannels.has(c)),
+  ];
+  let totalRevenueCents = 0;
+  for (const ch of allChannelNames) {
+    const entry = state.channelSummary[ch];
+    if (!entry) continue;
+    totalRevenueCents += entry.revenueCents;
+    log(`  ${ch}:  $${centsToDollarStr(entry.revenueCents)}  (${entry.orderCount} 笔订单)`);
+  }
+  log(`  合计:  $${centsToDollarStr(totalRevenueCents)}`);
+  log();
+
   log(`【薯条 Gross Sales 总额】 $${centsToDollarStr(state.chipsSalesCents)}`);
   for (const [channel, cents] of Object.entries(state.chipsSalesByChannel)) {
     log(`  - ${channel}: $${centsToDollarStr(cents)}`);
   }
   if (state.chipsPortionFromPacksQty > 0) {
     log(
-      `  提示: 另有 ${state.chipsPortionFromPacksQty} 份薯条来自 Seafood Basket 等套餐,` +
-        `因套餐打包定价、无法拆出单独售价,未计入上面的金额统计。`
+      `  其中包含 ${state.chipsPortionFromPacksQty} 份来自 Seafood Basket 等套餐的薯条,` +
+        `按每份 $2 计入了上面的金额统计。`
     );
   }
   log();
@@ -380,6 +427,7 @@ async function main() {
         date: TARGET_DATE,
         generatedAt: new Date().toISOString(),
         ordersCount: orders.length,
+        channelSummary: state.channelSummary,
         chipsSalesCents: state.chipsSalesCents,
         chipsSalesByChannel: state.chipsSalesByChannel,
         chipsPortionFromPacksQty: state.chipsPortionFromPacksQty,
