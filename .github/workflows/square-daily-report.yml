@@ -28,7 +28,6 @@ jobs:
       - name: 运行销售汇总脚本
         env:
           SQUARE_ACCESS_TOKEN: ${{ secrets.SQUARE_ACCESS_TOKEN }}
-          DEBUG_TENDERS: "1"  # 临时调试开关,排查完Uber Eats/DoorDash识别问题后可以删掉这行
         run: node square_daily_test.js
 
       - name: 把生成的报告提交回仓库
