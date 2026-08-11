@@ -342,15 +342,58 @@ async function main() {
     }
   }
 
-  // 把要输出的内容先收集成行数组,这样可以同时打印到控制台 + 写入文件
-  const lines = [];
-  const log = (s = "") => lines.push(s);
+  // ============================================================
+  // 报表A: 产品维度 - 每个商品卖了多少个(备餐/进货用,不含金额)
+  // ============================================================
+  const itemLines = [];
+  const logItem = (s = "") => itemLines.push(s);
 
-  log(`共拉取到 ${orders.length} 笔已完成订单\n`);
-  log(`=========== ${TARGET_DATE} 销售汇总 ===========\n`);
+  logItem(`共拉取到 ${orders.length} 笔已完成订单\n`);
+  logItem(`=========== ${TARGET_DATE} 商品销量汇总 ===========\n`);
 
-  // --- 各渠道总营业额(所有商品) ---
-  log("【各渠道总营业额】");
+  const byCategory = {};
+  for (const [target, entry] of Object.entries(state.qtySummary)) {
+    if (!byCategory[entry.category]) byCategory[entry.category] = [];
+    byCategory[entry.category].push({ target, ...entry });
+  }
+
+  logItem("【商品数量汇总(按渠道拆分)】");
+  for (const [category, items] of Object.entries(byCategory)) {
+    logItem(`\n-- ${category} --`);
+    items
+      .sort((a, b) => b.total - a.total)
+      .forEach(({ target, byChannel, total }) => {
+        const detail = Object.entries(byChannel)
+          .map(([ch, q]) => `${ch}: ${q}`)
+          .join(", ");
+        logItem(`  ${target}  合计 ${total}  (${detail})`);
+      });
+  }
+
+  if (state.unknown.length > 0) {
+    logItem("\n【未识别商品 - 请补充到 Items_Corresponding.xlsx】");
+    const grouped = {};
+    for (const u of state.unknown) {
+      grouped[u.name] = (grouped[u.name] || 0) + u.qty;
+    }
+    for (const [name, qty] of Object.entries(grouped)) {
+      logItem(`  "${name}"  出现数量合计 ${qty}`);
+    }
+  }
+
+  const itemReportText = itemLines.join("\n");
+  console.log(itemReportText);
+
+  // ============================================================
+  // 报表B: 渠道维度 - 每个渠道当天卖了多少钱(核算成本/对账Uber&DoorDash用)
+  // ============================================================
+  const channelLines = [];
+  const logChannel = (s = "") => channelLines.push(s);
+
+  logChannel(`共拉取到 ${orders.length} 笔已完成订单\n`);
+  logChannel(`=========== ${TARGET_DATE} 渠道营业额汇总 ===========\n`);
+
+  logChannel("【各渠道总营业额】");
   const channelOrder = ["线下", "Square线上", "Uber Eats", "DoorDash"];
   const seenChannels = new Set(channelOrder);
   const allChannelNames = [
@@ -362,75 +405,40 @@ async function main() {
     const entry = state.channelSummary[ch];
     if (!entry) continue;
     totalRevenueCents += entry.revenueCents;
-    log(`  ${ch}:  $${centsToDollarStr(entry.revenueCents)}  (${entry.orderCount} 笔订单)`);
+    logChannel(`  ${ch}:  $${centsToDollarStr(entry.revenueCents)}  (${entry.orderCount} 笔订单)`);
   }
-  log(`  合计:  $${centsToDollarStr(totalRevenueCents)}`);
-  log();
+  logChannel(`  合计:  $${centsToDollarStr(totalRevenueCents)}`);
+  logChannel();
 
-  log(`【薯条 Gross Sales 总额】 $${centsToDollarStr(state.chipsSalesCents)}`);
+  logChannel(`【薯条 Gross Sales 总额】 $${centsToDollarStr(state.chipsSalesCents)}`);
   for (const [channel, cents] of Object.entries(state.chipsSalesByChannel)) {
-    log(`  - ${channel}: $${centsToDollarStr(cents)}`);
+    logChannel(`  - ${channel}: $${centsToDollarStr(cents)}`);
   }
   if (state.chipsPortionFromPacksQty > 0) {
-    log(
+    logChannel(
       `  其中包含 ${state.chipsPortionFromPacksQty} 份来自 Seafood Basket 等套餐的薯条,` +
         `按每份 $2 计入了上面的金额统计。`
     );
   }
-  log();
 
-  const byCategory = {};
-  for (const [target, entry] of Object.entries(state.qtySummary)) {
-    if (!byCategory[entry.category]) byCategory[entry.category] = [];
-    byCategory[entry.category].push({ target, ...entry });
-  }
-
-  log("【商品数量汇总(按渠道拆分)】");
-  for (const [category, items] of Object.entries(byCategory)) {
-    log(`\n-- ${category} --`);
-    items
-      .sort((a, b) => b.total - a.total)
-      .forEach(({ target, byChannel, total }) => {
-        const detail = Object.entries(byChannel)
-          .map(([ch, q]) => `${ch}: ${q}`)
-          .join(", ");
-        log(`  ${target}  合计 ${total}  (${detail})`);
-      });
-  }
-
-  if (state.unknown.length > 0) {
-    log("\n【未识别商品 - 请补充到 Items_Corresponding.xlsx】");
-    const grouped = {};
-    for (const u of state.unknown) {
-      grouped[u.name] = (grouped[u.name] || 0) + u.qty;
-    }
-    for (const [name, qty] of Object.entries(grouped)) {
-      log(`  "${name}"  出现数量合计 ${qty}`);
-    }
-  }
-
-  const reportText = lines.join("\n");
-  console.log(reportText);
+  const channelReportText = channelLines.join("\n");
+  console.log(channelReportText);
 
   // --- 保存结果到文件 ---
   fs.mkdirSync(REPORTS_DIR, { recursive: true });
 
-  const txtPath = path.join(REPORTS_DIR, `${TARGET_DATE}.txt`);
-  fs.writeFileSync(txtPath, reportText, "utf8");
+  // 报表A: 产品维度
+  const itemsTxtPath = path.join(REPORTS_DIR, `${TARGET_DATE}-items.txt`);
+  fs.writeFileSync(itemsTxtPath, itemReportText, "utf8");
 
-  // 同时保存一份结构化 JSON,方便以后用程序读取/画图/汇总多天数据
-  const jsonPath = path.join(REPORTS_DIR, `${TARGET_DATE}.json`);
+  const itemsJsonPath = path.join(REPORTS_DIR, `${TARGET_DATE}-items.json`);
   fs.writeFileSync(
-    jsonPath,
+    itemsJsonPath,
     JSON.stringify(
       {
         date: TARGET_DATE,
         generatedAt: new Date().toISOString(),
         ordersCount: orders.length,
-        channelSummary: state.channelSummary,
-        chipsSalesCents: state.chipsSalesCents,
-        chipsSalesByChannel: state.chipsSalesByChannel,
-        chipsPortionFromPacksQty: state.chipsPortionFromPacksQty,
         qtySummary: state.qtySummary,
         unknownItems: state.unknown,
       },
@@ -440,8 +448,32 @@ async function main() {
     "utf8"
   );
 
-  console.log(`\n已保存报告到: ${txtPath}`);
-  console.log(`已保存数据到: ${jsonPath}`);
+  // 报表B: 渠道维度
+  const channelsTxtPath = path.join(REPORTS_DIR, `${TARGET_DATE}-channels.txt`);
+  fs.writeFileSync(channelsTxtPath, channelReportText, "utf8");
+
+  const channelsJsonPath = path.join(REPORTS_DIR, `${TARGET_DATE}-channels.json`);
+  fs.writeFileSync(
+    channelsJsonPath,
+    JSON.stringify(
+      {
+        date: TARGET_DATE,
+        generatedAt: new Date().toISOString(),
+        ordersCount: orders.length,
+        channelSummary: state.channelSummary,
+        totalRevenueCents,
+        chipsSalesCents: state.chipsSalesCents,
+        chipsSalesByChannel: state.chipsSalesByChannel,
+        chipsPortionFromPacksQty: state.chipsPortionFromPacksQty,
+      },
+      null,
+      2
+    ),
+    "utf8"
+  );
+
+  console.log(`\n已保存产品报表: ${itemsTxtPath} / ${itemsJsonPath}`);
+  console.log(`已保存渠道报表: ${channelsTxtPath} / ${channelsJsonPath}`);
 }
 
 main().catch((err) => {
