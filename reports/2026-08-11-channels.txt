@@ -8,10 +8,3 @@
   Uber Eats:  $125.20  (5 笔订单)
   DoorDash:  $18.00  (1 笔订单)
   合计:  $987.42
-
-【薯条 Gross Sales 总额】 $113.17
-  - Uber Eats: $20.00
-  - 线下: $80.17
-  - Square线上: $11.00
-  - DoorDash: $2.00
-  其中包含 1 份来自 Seafood Basket 等套餐的薯条,按每份 $2 计入了上面的金额统计。
