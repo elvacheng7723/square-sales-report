@@ -485,18 +485,6 @@ async function main() {
     logChannel(`  ${ch}:  $${centsToDollarStr(entry.revenueCents)}  (${entry.orderCount} 笔订单)`);
   }
   logChannel(`  合计:  $${centsToDollarStr(totalRevenueCents)}`);
-  logChannel();
-
-  logChannel(`【薯条 Gross Sales 总额】 $${centsToDollarStr(state.chipsSalesCents)}`);
-  for (const [channel, cents] of Object.entries(state.chipsSalesByChannel)) {
-    logChannel(`  - ${channel}: $${centsToDollarStr(cents)}`);
-  }
-  if (state.chipsPortionFromPacksQty > 0) {
-    logChannel(
-      `  其中包含 ${state.chipsPortionFromPacksQty} 份来自 Seafood Basket 等套餐的薯条,` +
-        `按每份 $2 计入了上面的金额统计。`
-    );
-  }
 
   const channelReportText = channelLines.join("\n");
   console.log(channelReportText);
@@ -539,9 +527,6 @@ async function main() {
         ordersCount: orders.length,
         channelSummary: state.channelSummary,
         totalRevenueCents,
-        chipsSalesCents: state.chipsSalesCents,
-        chipsSalesByChannel: state.chipsSalesByChannel,
-        chipsPortionFromPacksQty: state.chipsPortionFromPacksQty,
       },
       null,
       2
