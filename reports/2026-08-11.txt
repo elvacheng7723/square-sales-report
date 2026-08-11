@@ -2,40 +2,46 @@
 
 =========== 2026-08-11 销售汇总 ===========
 
-【薯条 Gross Sales 总额】 $111.17
-  - 堂食/自有渠道: $111.17
-  提示: 另有 1 份薯条来自 Seafood Basket 等套餐,因套餐打包定价、无法拆出单独售价,未计入上面的金额统计。
+【各渠道总营业额】
+  线下:  $849.72  (40 笔订单)
+  Square线上:  $137.70  (3 笔订单)
+  合计:  $987.42
+
+【薯条 Gross Sales 总额】 $113.17
+  - 线下: $102.17
+  - Square线上: $11.00
+  其中包含 1 份来自 Seafood Basket 等套餐的薯条,按每份 $2 计入了上面的金额统计。
 
 【商品数量汇总(按渠道拆分)】
 
 -- Fish --
-  Hake Small  合计 18  (堂食/自有渠道: 18)
-  Hake Large  合计 15  (堂食/自有渠道: 15)
-  Goldband Snapper  合计 4  (堂食/自有渠道: 4)
-  Spanish Mackerel  合计 4  (堂食/自有渠道: 4)
-  Shark  合计 2  (堂食/自有渠道: 2)
-  Silver Whiting  合计 2  (堂食/自有渠道: 2)
-  Barramundi  合计 1  (堂食/自有渠道: 1)
+  Hake Small  合计 18  (线下: 15, Square线上: 3)
+  Hake Large  合计 15  (线下: 13, Square线上: 2)
+  Goldband Snapper  合计 4  (线下: 3, Square线上: 1)
+  Spanish Mackerel  合计 4  (线下: 4)
+  Shark  合计 2  (线下: 2)
+  Silver Whiting  合计 2  (线下: 2)
+  Barramundi  合计 1  (线下: 1)
 
 -- Old Favourites --
-  Dim Sim  合计 9  (堂食/自有渠道: 9)
-  Potato Scallop  合计 4  (堂食/自有渠道: 4)
-  Chiko Roll  合计 2  (堂食/自有渠道: 2)
+  Dim Sim  合计 9  (线下: 9)
+  Potato Scallop  合计 4  (线下: 2, Square线上: 2)
+  Chiko Roll  合计 2  (线下: 2)
 
 -- Drinks --
-  Cans  合计 11  (堂食/自有渠道: 11)
-  1.25L Drinks  合计 1  (堂食/自有渠道: 1)
+  Cans  合计 11  (线下: 11)
+  1.25L Drinks  合计 1  (线下: 1)
 
 -- Seafood --
-  Squid Ring  合计 34  (堂食/自有渠道: 34)
-  Crab Sticks  合计 20  (堂食/自有渠道: 20)
-  Prawns  合计 12  (堂食/自有渠道: 12)
-  Sea Scallops  合计 4  (堂食/自有渠道: 4)
+  Squid Ring  合计 34  (线下: 24, Square线上: 10)
+  Crab Sticks  合计 20  (线下: 17, Square线上: 3)
+  Prawns  合计 12  (线下: 10, Square线上: 2)
+  Sea Scallops  合计 4  (线下: 3, Square线上: 1)
 
 -- Something Sweet --
-  Pineapple Fritter  合计 9  (堂食/自有渠道: 9)
+  Pineapple Fritter  合计 9  (线下: 6, Square线上: 3)
 
 -- Extras --
-  Sauce portions  合计 7  (堂食/自有渠道: 7)
-  Tomato Sauce Jar  合计 1  (堂食/自有渠道: 1)
-  Pickled Onions(Jar)  合计 1  (堂食/自有渠道: 1)
+  Sauce portions  合计 7  (线下: 3, Square线上: 4)
+  Tomato Sauce Jar  合计 1  (线下: 1)
+  Pickled Onions(Jar)  合计 1  (Square线上: 1)

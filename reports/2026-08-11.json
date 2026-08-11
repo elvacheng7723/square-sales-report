@@ -1,150 +1,171 @@
 {
   "date": "2026-08-11",
-  "generatedAt": "2026-08-11T12:36:36.346Z",
+  "generatedAt": "2026-08-11T12:50:46.813Z",
   "ordersCount": 43,
-  "chipsSalesCents": 11117,
+  "channelSummary": {
+    "线下": {
+      "revenueCents": 84972,
+      "orderCount": 40
+    },
+    "Square线上": {
+      "revenueCents": 13770,
+      "orderCount": 3
+    }
+  },
+  "chipsSalesCents": 11317,
   "chipsSalesByChannel": {
-    "堂食/自有渠道": 11117
+    "线下": 10217,
+    "Square线上": 1100
   },
   "chipsPortionFromPacksQty": 1,
   "qtySummary": {
     "Hake Small": {
       "category": "Fish",
       "byChannel": {
-        "堂食/自有渠道": 18
+        "线下": 15,
+        "Square线上": 3
       },
       "total": 18
     },
     "Potato Scallop": {
       "category": "Old Favourites",
       "byChannel": {
-        "堂食/自有渠道": 4
+        "线下": 2,
+        "Square线上": 2
       },
       "total": 4
     },
     "Cans": {
       "category": "Drinks",
       "byChannel": {
-        "堂食/自有渠道": 11
+        "线下": 11
       },
       "total": 11
     },
     "Chiko Roll": {
       "category": "Old Favourites",
       "byChannel": {
-        "堂食/自有渠道": 2
+        "线下": 2
       },
       "total": 2
     },
     "Shark": {
       "category": "Fish",
       "byChannel": {
-        "堂食/自有渠道": 2
+        "线下": 2
       },
       "total": 2
     },
     "Crab Sticks": {
       "category": "Seafood",
       "byChannel": {
-        "堂食/自有渠道": 20
+        "线下": 17,
+        "Square线上": 3
       },
       "total": 20
     },
     "Hake Large": {
       "category": "Fish",
       "byChannel": {
-        "堂食/自有渠道": 15
+        "线下": 13,
+        "Square线上": 2
       },
       "total": 15
     },
     "Silver Whiting": {
       "category": "Fish",
       "byChannel": {
-        "堂食/自有渠道": 2
+        "线下": 2
       },
       "total": 2
     },
     "Goldband Snapper": {
       "category": "Fish",
       "byChannel": {
-        "堂食/自有渠道": 4
+        "线下": 3,
+        "Square线上": 1
       },
       "total": 4
     },
     "Squid Ring": {
       "category": "Seafood",
       "byChannel": {
-        "堂食/自有渠道": 34
+        "线下": 24,
+        "Square线上": 10
       },
       "total": 34
     },
     "Dim Sim": {
       "category": "Old Favourites",
       "byChannel": {
-        "堂食/自有渠道": 9
+        "线下": 9
       },
       "total": 9
     },
     "Spanish Mackerel": {
       "category": "Fish",
       "byChannel": {
-        "堂食/自有渠道": 4
+        "线下": 4
       },
       "total": 4
     },
     "Pineapple Fritter": {
       "category": "Something Sweet",
       "byChannel": {
-        "堂食/自有渠道": 9
+        "线下": 6,
+        "Square线上": 3
       },
       "total": 9
     },
     "Sauce portions": {
       "category": "Extras",
       "byChannel": {
-        "堂食/自有渠道": 7
+        "线下": 3,
+        "Square线上": 4
       },
       "total": 7
     },
     "Barramundi": {
       "category": "Fish",
       "byChannel": {
-        "堂食/自有渠道": 1
+        "线下": 1
       },
       "total": 1
     },
     "Prawns": {
       "category": "Seafood",
       "byChannel": {
-        "堂食/自有渠道": 12
+        "线下": 10,
+        "Square线上": 2
       },
       "total": 12
     },
     "Sea Scallops": {
       "category": "Seafood",
       "byChannel": {
-        "堂食/自有渠道": 4
+        "线下": 3,
+        "Square线上": 1
       },
       "total": 4
     },
     "Tomato Sauce Jar": {
       "category": "Extras",
       "byChannel": {
-        "堂食/自有渠道": 1
+        "线下": 1
       },
       "total": 1
     },
     "Pickled Onions(Jar)": {
       "category": "Extras",
       "byChannel": {
-        "堂食/自有渠道": 1
+        "Square线上": 1
       },
       "total": 1
     },
     "1.25L Drinks": {
       "category": "Drinks",
       "byChannel": {
-        "堂食/自有渠道": 1
+        "线下": 1
       },
       "total": 1
     }
