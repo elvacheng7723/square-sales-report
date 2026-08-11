@@ -323,9 +323,23 @@ async function main() {
   const orders = await fetchAllOrders();
 
   const state = createState();
+  const DEBUG_TENDERS = process.env.DEBUG_TENDERS === "1";
+
   for (const order of orders) {
     const channel = classifyChannel(order);
     const lineItems = order.line_items || [];
+
+    if (DEBUG_TENDERS) {
+      console.log(
+        `[调试] 订单 ${order.id}  判定渠道=${channel}  tenders=` +
+          JSON.stringify(
+            (order.tenders || []).map((t) => ({ type: t.type, note: t.note })),
+            null,
+            0
+          ) +
+          `  source=${JSON.stringify(order.source || null)}`
+      );
+    }
 
     // 统计这笔订单的总营业额(所有商品,不限薯条),按渠道汇总
     if (!state.channelSummary[channel]) {
