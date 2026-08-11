@@ -213,12 +213,69 @@ async function fetchAllOrders() {
   return orders;
 }
 
+// 拉取当天所有付款记录(用于查自定义支付方式的真实名字,比如 Uber Eats / DoorDash)
+async function fetchAllPayments() {
+  const payments = [];
+  let cursor = undefined;
+
+  do {
+    const params = new URLSearchParams({
+      location_id: LOCATION_ID,
+      begin_time: `${TARGET_DATE}T00:00:00${TIMEZONE_OFFSET}`,
+      end_time: `${TARGET_DATE}T23:59:59${TIMEZONE_OFFSET}`,
+      sort_order: "ASC",
+      limit: "100",
+    });
+    if (cursor) params.set("cursor", cursor);
+
+    const res = await fetch(`https://connect.squareup.com/v2/payments?${params.toString()}`, {
+      method: "GET",
+      headers: {
+        "Square-Version": "2025-01-23",
+        "Authorization": `Bearer ${ACCESS_TOKEN}`,
+      },
+    });
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      console.error("Square Payments API 返回错误:", JSON.stringify(data, null, 2));
+      process.exit(1);
+    }
+
+    payments.push(...(data.payments || []));
+    cursor = data.cursor;
+  } while (cursor);
+
+  return payments;
+}
+
+// 把付款ID映射到"自定义支付方式的真实名字"(external_details.source)
+// 比如 tender.type 是 OTHER 但 note 是空的,真实名字("Uber Eats"/"DoorDash")就存在这里
+function buildExternalSourceMap(payments) {
+  const map = new Map();
+  for (const p of payments) {
+    const source = p.external_details && p.external_details.source;
+    if (source) {
+      map.set(p.id, source);
+    }
+  }
+  return map;
+}
+
 // 判断一笔订单属于哪个销售渠道: Uber Eats / DoorDash / Square线上 / 线下
-function classifyChannel(order) {
+function classifyChannel(order, externalSourceMap) {
   // 1) 先看有没有专门代表 Uber Eats / DoorDash 的自定义支付方式
   const tenders = order.tenders || [];
   for (const tender of tenders) {
-    const noteOrType = tender.type === "OTHER" ? tender.note : tender.type;
+    let noteOrType = tender.type === "OTHER" ? tender.note : tender.type;
+
+    // 自定义(Other)支付方式的真实名字经常不在 note 里,而是要去 Payments API 查
+    // (external_details.source),这里优先用查到的真实名字
+    if (tender.type === "OTHER" && tender.payment_id && externalSourceMap.has(tender.payment_id)) {
+      noteOrType = externalSourceMap.get(tender.payment_id);
+    }
+
     if (!noteOrType) continue;
     const noteOrTypeLower = noteOrType.toLowerCase();
     for (const [channel, tenderName] of Object.entries(CHANNEL_TENDER_NAMES)) {
@@ -321,19 +378,25 @@ function centsToDollarStr(cents) {
 
 async function main() {
   const orders = await fetchAllOrders();
+  const payments = await fetchAllPayments();
+  const externalSourceMap = buildExternalSourceMap(payments);
 
   const state = createState();
   const DEBUG_TENDERS = process.env.DEBUG_TENDERS === "1";
 
   for (const order of orders) {
-    const channel = classifyChannel(order);
+    const channel = classifyChannel(order, externalSourceMap);
     const lineItems = order.line_items || [];
 
     if (DEBUG_TENDERS) {
       console.log(
         `[调试] 订单 ${order.id}  判定渠道=${channel}  tenders=` +
           JSON.stringify(
-            (order.tenders || []).map((t) => ({ type: t.type, note: t.note })),
+            (order.tenders || []).map((t) => ({
+              type: t.type,
+              note: t.note,
+              resolvedSource: t.payment_id ? externalSourceMap.get(t.payment_id) || null : null,
+            })),
             null,
             0
           ) +
