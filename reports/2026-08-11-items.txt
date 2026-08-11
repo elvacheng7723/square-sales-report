@@ -1,0 +1,37 @@
+共拉取到 43 笔已完成订单
+
+=========== 2026-08-11 商品销量汇总 ===========
+
+【商品数量汇总(按渠道拆分)】
+
+-- Fish --
+  Hake Small  合计 18  (线下: 15, Square线上: 3)
+  Hake Large  合计 15  (线下: 13, Square线上: 2)
+  Goldband Snapper  合计 4  (线下: 3, Square线上: 1)
+  Spanish Mackerel  合计 4  (线下: 4)
+  Shark  合计 2  (线下: 2)
+  Silver Whiting  合计 2  (线下: 2)
+  Barramundi  合计 1  (线下: 1)
+
+-- Old Favourites --
+  Dim Sim  合计 9  (线下: 9)
+  Potato Scallop  合计 4  (线下: 2, Square线上: 2)
+  Chiko Roll  合计 2  (线下: 2)
+
+-- Drinks --
+  Cans  合计 11  (线下: 11)
+  1.25L Drinks  合计 1  (线下: 1)
+
+-- Seafood --
+  Squid Ring  合计 34  (线下: 24, Square线上: 10)
+  Crab Sticks  合计 20  (线下: 17, Square线上: 3)
+  Prawns  合计 12  (线下: 10, Square线上: 2)
+  Sea Scallops  合计 4  (线下: 3, Square线上: 1)
+
+-- Something Sweet --
+  Pineapple Fritter  合计 9  (线下: 6, Square线上: 3)
+
+-- Extras --
+  Sauce portions  合计 7  (线下: 3, Square线上: 4)
+  Tomato Sauce Jar  合计 1  (线下: 1)
+  Pickled Onions(Jar)  合计 1  (Square线上: 1)

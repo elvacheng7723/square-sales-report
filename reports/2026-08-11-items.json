@@ -1,0 +1,158 @@
+{
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-11T12:58:07.112Z",
+  "ordersCount": 43,
+  "qtySummary": {
+    "Hake Small": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 15,
+        "Square线上": 3
+      },
+      "total": 18
+    },
+    "Potato Scallop": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 2,
+        "Square线上": 2
+      },
+      "total": 4
+    },
+    "Cans": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 11
+      },
+      "total": 11
+    },
+    "Chiko Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Shark": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Crab Sticks": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 17,
+        "Square线上": 3
+      },
+      "total": 20
+    },
+    "Hake Large": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 13,
+        "Square线上": 2
+      },
+      "total": 15
+    },
+    "Silver Whiting": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Goldband Snapper": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 3,
+        "Square线上": 1
+      },
+      "total": 4
+    },
+    "Squid Ring": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 24,
+        "Square线上": 10
+      },
+      "total": 34
+    },
+    "Dim Sim": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 9
+      },
+      "total": 9
+    },
+    "Spanish Mackerel": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 4
+      },
+      "total": 4
+    },
+    "Pineapple Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "线下": 6,
+        "Square线上": 3
+      },
+      "total": 9
+    },
+    "Sauce portions": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 3,
+        "Square线上": 4
+      },
+      "total": 7
+    },
+    "Barramundi": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Prawns": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 10,
+        "Square线上": 2
+      },
+      "total": 12
+    },
+    "Sea Scallops": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 3,
+        "Square线上": 1
+      },
+      "total": 4
+    },
+    "Tomato Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Pickled Onions(Jar)": {
+      "category": "Extras",
+      "byChannel": {
+        "Square线上": 1
+      },
+      "total": 1
+    },
+    "1.25L Drinks": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    }
+  },
+  "unknownItems": []
+}

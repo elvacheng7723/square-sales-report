@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-11T12:58:07.112Z",
+  "ordersCount": 43,
+  "channelSummary": {
+    "线下": {
+      "revenueCents": 84972,
+      "orderCount": 40
+    },
+    "Square线上": {
+      "revenueCents": 13770,
+      "orderCount": 3
+    }
+  },
+  "totalRevenueCents": 98742,
+  "chipsSalesCents": 11317,
+  "chipsSalesByChannel": {
+    "线下": 10217,
+    "Square线上": 1100
+  },
+  "chipsPortionFromPacksQty": 1
+}
