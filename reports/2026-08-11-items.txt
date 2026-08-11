@@ -5,21 +5,21 @@
 【商品数量汇总(按渠道拆分)】
 
 -- Fish --
-  Hake Small  合计 18  (线下: 15, Square线上: 3)
-  Hake Large  合计 15  (线下: 13, Square线上: 2)
+  Hake Small  合计 18  (Uber Eats: 2, 线下: 13, Square线上: 3)
+  Hake Large  合计 15  (Uber Eats: 2, 线下: 11, Square线上: 2)
   Goldband Snapper  合计 4  (线下: 3, Square线上: 1)
-  Spanish Mackerel  合计 4  (线下: 4)
+  Spanish Mackerel  合计 4  (线下: 3, DoorDash: 1)
   Shark  合计 2  (线下: 2)
-  Silver Whiting  合计 2  (线下: 2)
+  Silver Whiting  合计 2  (线下: 1, Uber Eats: 1)
   Barramundi  合计 1  (线下: 1)
 
 -- Old Favourites --
-  Dim Sim  合计 9  (线下: 9)
-  Potato Scallop  合计 4  (线下: 2, Square线上: 2)
-  Chiko Roll  合计 2  (线下: 2)
+  Dim Sim  合计 9  (线下: 6, Uber Eats: 3)
+  Potato Scallop  合计 4  (Uber Eats: 1, 线下: 1, Square线上: 2)
+  Chiko Roll  合计 2  (线下: 1, Uber Eats: 1)
 
 -- Drinks --
-  Cans  合计 11  (线下: 11)
+  Cans  合计 11  (Uber Eats: 6, 线下: 5)
   1.25L Drinks  合计 1  (线下: 1)
 
 -- Seafood --
