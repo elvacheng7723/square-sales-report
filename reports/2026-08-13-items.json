@@ -1,0 +1,209 @@
+{
+  "date": "2026-08-13",
+  "generatedAt": "2026-08-13T13:36:12.336Z",
+  "ordersCount": 46,
+  "qtySummary": {
+    "1.25L Drinks": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Goldband Snapper": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 3
+      },
+      "total": 3
+    },
+    "Prawns": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 12,
+        "DoorDash": 2
+      },
+      "total": 14
+    },
+    "Barramundi": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 5
+      },
+      "total": 5
+    },
+    "Hake Small": {
+      "category": "Fish",
+      "byChannel": {
+        "DoorDash": 3,
+        "线下": 16,
+        "Square线上": 6
+      },
+      "total": 25
+    },
+    "Sea Scallops": {
+      "category": "Seafood",
+      "byChannel": {
+        "DoorDash": 1,
+        "线下": 4
+      },
+      "total": 5
+    },
+    "Squid Ring": {
+      "category": "Seafood",
+      "byChannel": {
+        "DoorDash": 4,
+        "线下": 34
+      },
+      "total": 38
+    },
+    "Crab Sticks": {
+      "category": "Seafood",
+      "byChannel": {
+        "DoorDash": 1,
+        "线下": 8,
+        "Uber Eats": 2
+      },
+      "total": 11
+    },
+    "Pickled Onions(Each)": {
+      "category": "Extras",
+      "byChannel": {
+        "DoorDash": 2
+      },
+      "total": 2
+    },
+    "Shark": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Sauce portions": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 11
+      },
+      "total": 11
+    },
+    "Pineapple Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "线下": 2,
+        "Square线上": 3
+      },
+      "total": 5
+    },
+    "Cans": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 6
+      },
+      "total": 6
+    },
+    "Tomato Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Potato Scallop": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "DoorDash": 1,
+        "Square线上": 3
+      },
+      "total": 4
+    },
+    "Hake Large": {
+      "category": "Fish",
+      "byChannel": {
+        "DoorDash": 1,
+        "Square线上": 3,
+        "线下": 9
+      },
+      "total": 13
+    },
+    "Silver Whiting": {
+      "category": "Fish",
+      "byChannel": {
+        "Uber Eats": 1
+      },
+      "total": 1
+    },
+    "Dim Sim": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "Uber Eats": 2,
+        "线下": 9
+      },
+      "total": 11
+    },
+    "Spanish Mackerel": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 3,
+        "Square线上": 1
+      },
+      "total": 4
+    },
+    "Corn Jack": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Bundaburg": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Chiko Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Tartare Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Fremantle Sardines - 6 per serve": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Pickled Onions(Jar)": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Fish Cake": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    }
+  },
+  "unknownItems": [
+    {
+      "name": "Schweppes 301",
+      "qty": 1,
+      "channel": "线下"
+    }
+  ]
+}

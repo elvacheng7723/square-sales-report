@@ -1,0 +1,46 @@
+共拉取到 46 笔已完成订单
+
+=========== 2026-08-13 商品销量汇总 ===========
+
+【商品数量汇总(按渠道拆分)】
+
+-- Drinks --
+  Cans  合计 6  (线下: 6)
+  1.25L Drinks  合计 2  (线下: 2)
+  Bundaburg  合计 2  (线下: 2)
+
+-- Fish --
+  Hake Small  合计 25  (DoorDash: 3, 线下: 16, Square线上: 6)
+  Hake Large  合计 13  (DoorDash: 1, Square线上: 3, 线下: 9)
+  Barramundi  合计 5  (线下: 5)
+  Spanish Mackerel  合计 4  (线下: 3, Square线上: 1)
+  Goldband Snapper  合计 3  (线下: 3)
+  Shark  合计 1  (线下: 1)
+  Silver Whiting  合计 1  (Uber Eats: 1)
+
+-- Seafood --
+  Squid Ring  合计 38  (DoorDash: 4, 线下: 34)
+  Prawns  合计 14  (线下: 12, DoorDash: 2)
+  Crab Sticks  合计 11  (DoorDash: 1, 线下: 8, Uber Eats: 2)
+  Sea Scallops  合计 5  (DoorDash: 1, 线下: 4)
+  Fremantle Sardines - 6 per serve  合计 1  (线下: 1)
+
+-- Extras --
+  Sauce portions  合计 11  (线下: 11)
+  Pickled Onions(Each)  合计 2  (DoorDash: 2)
+  Tartare Sauce Jar  合计 2  (线下: 2)
+  Tomato Sauce Jar  合计 1  (线下: 1)
+  Pickled Onions(Jar)  合计 1  (线下: 1)
+
+-- Something Sweet --
+  Pineapple Fritter  合计 5  (线下: 2, Square线上: 3)
+
+-- Old Favourites --
+  Dim Sim  合计 11  (Uber Eats: 2, 线下: 9)
+  Potato Scallop  合计 4  (DoorDash: 1, Square线上: 3)
+  Corn Jack  合计 1  (线下: 1)
+  Chiko Roll  合计 1  (线下: 1)
+  Fish Cake  合计 1  (线下: 1)
+
+【未识别商品 - 请补充到 Items_Corresponding.xlsx】
+  "Schweppes 301"  出现数量合计 1
