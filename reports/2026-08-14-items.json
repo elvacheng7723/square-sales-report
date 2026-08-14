@@ -1,0 +1,211 @@
+{
+  "date": "2026-08-14",
+  "generatedAt": "2026-08-14T13:54:55.500Z",
+  "ordersCount": 75,
+  "qtySummary": {
+    "1.25L Drinks": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 3
+      },
+      "total": 3
+    },
+    "2L Drinks": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Sauce portions": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 17
+      },
+      "total": 17
+    },
+    "Cans": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 8,
+        "Uber Eats": 2
+      },
+      "total": 10
+    },
+    "Hake Large": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 19,
+        "DoorDash": 1,
+        "Uber Eats": 2,
+        "Square线上": 3
+      },
+      "total": 25
+    },
+    "Shark": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 6
+      },
+      "total": 6
+    },
+    "Fremantle Sardines - 6 per serve": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Potato Scallop": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 4,
+        "Uber Eats": 2
+      },
+      "total": 6
+    },
+    "Chiko Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 2,
+        "Uber Eats": 1,
+        "Square线上": 2
+      },
+      "total": 5
+    },
+    "Hake Small": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 29,
+        "Uber Eats": 3,
+        "Square线上": 3,
+        "DoorDash": 4
+      },
+      "total": 39
+    },
+    "Squid Ring": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 52,
+        "Uber Eats": 12,
+        "Square线上": 10,
+        "DoorDash": 8
+      },
+      "total": 82
+    },
+    "Crab Sticks": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 13,
+        "Uber Eats": 3,
+        "Square线上": 3,
+        "DoorDash": 2
+      },
+      "total": 21
+    },
+    "Dim Sim": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 17,
+        "Uber Eats": 2
+      },
+      "total": 19
+    },
+    "Tomato Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Goldband Snapper": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 5,
+        "Square线上": 1,
+        "DoorDash": 3
+      },
+      "total": 9
+    },
+    "Prawns": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 13,
+        "Square线上": 2,
+        "DoorDash": 4
+      },
+      "total": 19
+    },
+    "Spanish Mackerel": {
+      "category": "Fish",
+      "byChannel": {
+        "Uber Eats": 1,
+        "线下": 1
+      },
+      "total": 2
+    },
+    "Silver Whiting": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 4,
+        "Square线上": 1
+      },
+      "total": 5
+    },
+    "Pineapple Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "线下": 8,
+        "Uber Eats": 1,
+        "Square线上": 2
+      },
+      "total": 11
+    },
+    "Bundaburg": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Spring Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "Uber Eats": 1,
+        "线下": 2
+      },
+      "total": 3
+    },
+    "Sea Scallops": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 10,
+        "Square线上": 1,
+        "DoorDash": 6
+      },
+      "total": 17
+    },
+    "Tartare Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Banana Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Fish Cake": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    }
+  },
+  "unknownItems": []
+}
