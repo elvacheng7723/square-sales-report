@@ -1,0 +1,41 @@
+共拉取到 61 笔已完成订单
+
+=========== 2026-08-15 商品销量汇总 ===========
+
+【商品数量汇总(按渠道拆分)】
+
+-- Drinks --
+  Cans  合计 10  (Uber Eats: 3, 线下: 7)
+  Bundaburg  合计 1  (线下: 1)
+  ICE TEA 500ml  合计 1  (线下: 1)
+  1.25L Drinks  合计 1  (线下: 1)
+
+-- Fish --
+  Hake Small  合计 34  (Uber Eats: 6, DoorDash: 1, 线下: 24, Square线上: 3)
+  Hake Large  合计 21  (线下: 14, DoorDash: 1, Square线上: 5, Uber Eats: 1)
+  Goldband Snapper  合计 15  (Square线上: 1, 线下: 13, Uber Eats: 1)
+  Shark  合计 5  (Square线上: 5)
+  Spanish Mackerel  合计 4  (Square线上: 1, 线下: 3)
+  Barramundi  合计 2  (线下: 2)
+
+-- Old Favourites --
+  Potato Scallop  合计 15  (线下: 13, Square线上: 1, Uber Eats: 1)
+  Dim Sim  合计 6  (Uber Eats: 1, 线下: 5)
+  Spring Roll  合计 2  (线下: 2)
+  Fish Cake  合计 2  (Uber Eats: 1, 线下: 1)
+  Chiko Roll  合计 1  (线下: 1)
+
+-- Seafood --
+  Squid Ring  合计 84  (线下: 44, Square线上: 30, Uber Eats: 10)
+  Prawns  合计 21  (Square线上: 5, 线下: 14, Uber Eats: 2)
+  Crab Sticks  合计 10  (线下: 9, Uber Eats: 1)
+  Sea Scallops  合计 9  (线下: 8, Uber Eats: 1)
+  Mussels  合计 6  (线下: 6)
+
+-- Something Sweet --
+  Pineapple Fritter  合计 13  (Square线上: 2, 线下: 9, Uber Eats: 2)
+  Banana Fritter  合计 2  (线下: 1, Uber Eats: 1)
+
+-- Extras --
+  Sauce portions  合计 16  (Square线上: 6, Uber Eats: 1, 线下: 9)
+  Tartare Sauce Jar  合计 1  (线下: 1)
