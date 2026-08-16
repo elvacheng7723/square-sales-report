@@ -1,0 +1,235 @@
+{
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T13:10:09.888Z",
+  "ordersCount": 73,
+  "qtySummary": {
+    "Bundaburg": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 3
+      },
+      "total": 3
+    },
+    "ICE TEA 500ml": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Barramundi": {
+      "category": "Fish",
+      "byChannel": {
+        "Uber Eats": 1
+      },
+      "total": 1
+    },
+    "1.25L Drinks": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Hake Small": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 47,
+        "Square线上": 12,
+        "Uber Eats": 4,
+        "DoorDash": 2
+      },
+      "total": 65
+    },
+    "Crab Sticks": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 13,
+        "Uber Eats": 3,
+        "Square线上": 4,
+        "DoorDash": 1
+      },
+      "total": 21
+    },
+    "Sauce portions": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 8,
+        "Uber Eats": 1
+      },
+      "total": 9
+    },
+    "Spanish Mackerel": {
+      "category": "Fish",
+      "byChannel": {
+        "Square线上": 3,
+        "线下": 4
+      },
+      "total": 7
+    },
+    "Cans": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 7,
+        "Uber Eats": 2
+      },
+      "total": 9
+    },
+    "Pickled Onions(Jar)": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Potato Scallop": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 4,
+        "Uber Eats": 3
+      },
+      "total": 7
+    },
+    "Goldband Snapper": {
+      "category": "Fish",
+      "byChannel": {
+        "Square线上": 2,
+        "线下": 12
+      },
+      "total": 14
+    },
+    "Silver Whiting": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 6,
+        "Uber Eats": 1,
+        "Square线上": 4
+      },
+      "total": 11
+    },
+    "Dim Sim": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 12,
+        "Uber Eats": 1,
+        "DoorDash": 3,
+        "Square线上": 4
+      },
+      "total": 20
+    },
+    "Hake Large": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 15,
+        "Uber Eats": 2,
+        "Square线上": 13
+      },
+      "total": 30
+    },
+    "Squid Ring": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 40,
+        "Uber Eats": 8,
+        "Square线上": 30,
+        "DoorDash": 4
+      },
+      "total": 82
+    },
+    "Banana Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Pineapple Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "线下": 13,
+        "Uber Eats": 2,
+        "Square线上": 2
+      },
+      "total": 17
+    },
+    "Fish Cake": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 3
+      },
+      "total": 3
+    },
+    "Prawns": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 10,
+        "Uber Eats": 6,
+        "Square线上": 10,
+        "DoorDash": 2
+      },
+      "total": 28
+    },
+    "Sea Scallops": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 5,
+        "Uber Eats": 2,
+        "Square线上": 3,
+        "DoorDash": 1
+      },
+      "total": 11
+    },
+    "Shark": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 3,
+        "Square线上": 1,
+        "DoorDash": 2
+      },
+      "total": 6
+    },
+    "Tomato Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Tartare Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Pickled Onions(Each)": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Pop-top": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Fremantle Sardines - 6 per serve": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Corn Jack": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "DoorDash": 1
+      },
+      "total": 1
+    }
+  },
+  "unknownItems": []
+}
