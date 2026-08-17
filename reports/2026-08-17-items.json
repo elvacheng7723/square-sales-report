@@ -1,0 +1,151 @@
+{
+  "date": "2026-08-17",
+  "generatedAt": "2026-08-17T12:59:17.699Z",
+  "ordersCount": 31,
+  "qtySummary": {
+    "Barramundi": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 4
+      },
+      "total": 4
+    },
+    "Sea Scallops": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 3
+      },
+      "total": 3
+    },
+    "Crab Sticks": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 6,
+        "DoorDash": 2
+      },
+      "total": 8
+    },
+    "Dim Sim": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 2,
+        "Uber Eats": 1
+      },
+      "total": 3
+    },
+    "Sauce portions": {
+      "category": "Extras",
+      "byChannel": {
+        "Uber Eats": 6,
+        "线下": 5
+      },
+      "total": 11
+    },
+    "Hake Small": {
+      "category": "Fish",
+      "byChannel": {
+        "Uber Eats": 2,
+        "线下": 8
+      },
+      "total": 10
+    },
+    "Cans": {
+      "category": "Drinks",
+      "byChannel": {
+        "Uber Eats": 4,
+        "线下": 4
+      },
+      "total": 8
+    },
+    "Hake Large": {
+      "category": "Fish",
+      "byChannel": {
+        "Uber Eats": 5,
+        "线下": 2,
+        "Square线上": 4
+      },
+      "total": 11
+    },
+    "Potato Scallop": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "Uber Eats": 1,
+        "线下": 2
+      },
+      "total": 3
+    },
+    "Oysters": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 3
+      },
+      "total": 3
+    },
+    "Prawns": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 4
+      },
+      "total": 4
+    },
+    "Squid Ring": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 16,
+        "Square线上": 6
+      },
+      "total": 22
+    },
+    "Spanish Mackerel": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 5,
+        "Square线上": 2
+      },
+      "total": 7
+    },
+    "Pickled Onions(Jar)": {
+      "category": "Extras",
+      "byChannel": {
+        "Uber Eats": 1
+      },
+      "total": 1
+    },
+    "Onion Rings": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "Uber Eats": 1
+      },
+      "total": 1
+    },
+    "Goldband Snapper": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 3
+      },
+      "total": 3
+    },
+    "Pickled Onions(Each)": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Fish Cake": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Chiko Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    }
+  },
+  "unknownItems": []
+}
