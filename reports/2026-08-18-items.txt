@@ -1,0 +1,37 @@
+共拉取到 41 笔已完成订单
+
+=========== 2026-08-18 商品销量汇总 ===========
+
+【商品数量汇总(按渠道拆分)】
+
+-- Drinks --
+  Cans  合计 6  (线下: 3, Uber Eats: 2, DoorDash: 1)
+  ICE TEA 500ml  合计 2  (线下: 2)
+  1.25L Drinks  合计 1  (线下: 1)
+
+-- Seafood --
+  Squid Ring  合计 12  (线下: 6, Square线上: 6)
+  Crab Sticks  合计 11  (线下: 11)
+  Sea Scallops  合计 2  (Uber Eats: 2)
+
+-- Fish --
+  Hake Small  合计 29  (线下: 26, Uber Eats: 3)
+  Hake Large  合计 13  (Uber Eats: 6, 线下: 4, DoorDash: 1, Square线上: 2)
+  Shark  合计 4  (线下: 1, Square线上: 3)
+  Spanish Mackerel  合计 2  (线下: 2)
+  Barramundi  合计 2  (线下: 2)
+  Silver Whiting  合计 1  (线下: 1)
+
+-- Extras --
+  Sauce portions  合计 3  (线下: 3)
+  Tomato Sauce Jar  合计 1  (Uber Eats: 1)
+
+-- Old Favourites --
+  Dim Sim  合计 9  (Uber Eats: 4, 线下: 3, Square线上: 2)
+  Spring Roll  合计 1  (Uber Eats: 1)
+  Potato Scallop  合计 1  (线下: 1)
+  Corn Jack  合计 1  (线下: 1)
+
+-- Something Sweet --
+  Pineapple Fritter  合计 9  (线下: 3, Square线上: 6)
+  Banana Fritter  合计 1  (线下: 1)
