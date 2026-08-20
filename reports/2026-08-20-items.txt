@@ -1,0 +1,35 @@
+共拉取到 32 笔已完成订单
+
+=========== 2026-08-20 商品销量汇总 ===========
+
+【商品数量汇总(按渠道拆分)】
+
+-- Old Favourites --
+  Dim Sim  合计 5  (线下: 5)
+  Chiko Roll  合计 3  (线下: 1, Uber Eats: 2)
+  Fish Cake  合计 2  (线下: 2)
+
+-- Seafood --
+  Crab Sticks  合计 14  (线下: 2, Square线上: 10, Uber Eats: 2)
+
+-- Fish --
+  Hake Small  合计 20  (线下: 12, Square线上: 8)
+  Goldband Snapper  合计 8  (线下: 5, Square线上: 3)
+  Hake Large  合计 6  (线下: 4, Uber Eats: 1, Square线上: 1)
+  Shark  合计 5  (线下: 2, Square线上: 3)
+  Spanish Mackerel  合计 2  (线下: 1, Square线上: 1)
+
+-- Drinks --
+  1.25L Drinks  合计 1  (线下: 1)
+  Cans  合计 1  (线下: 1)
+
+-- Seafood Basket 拆分 --
+  Squid Ring  合计 22  (Square线上: 12, 线下: 10)
+  Prawns  合计 10  (Square线上: 8, 线下: 2)
+  Sea Scallops  合计 5  (Square线上: 4, 线下: 1)
+
+-- Something Sweet --
+  Pineapple Fritter  合计 4  (Square线上: 1, 线下: 3)
+
+-- Extras --
+  Sauce portions  合计 4  (线下: 4)

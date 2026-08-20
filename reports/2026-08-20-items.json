@@ -1,0 +1,133 @@
+{
+  "date": "2026-08-20",
+  "generatedAt": "2026-08-20T13:03:56.837Z",
+  "ordersCount": 32,
+  "qtySummary": {
+    "Dim Sim": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 5
+      },
+      "total": 5
+    },
+    "Chiko Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 1,
+        "Uber Eats": 2
+      },
+      "total": 3
+    },
+    "Crab Sticks": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 2,
+        "Square线上": 10,
+        "Uber Eats": 2
+      },
+      "total": 14
+    },
+    "Fish Cake": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Hake Small": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 12,
+        "Square线上": 8
+      },
+      "total": 20
+    },
+    "Hake Large": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 4,
+        "Uber Eats": 1,
+        "Square线上": 1
+      },
+      "total": 6
+    },
+    "1.25L Drinks": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Shark": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 2,
+        "Square线上": 3
+      },
+      "total": 5
+    },
+    "Spanish Mackerel": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 1,
+        "Square线上": 1
+      },
+      "total": 2
+    },
+    "Prawns": {
+      "category": "Seafood Basket 拆分",
+      "byChannel": {
+        "Square线上": 8,
+        "线下": 2
+      },
+      "total": 10
+    },
+    "Sea Scallops": {
+      "category": "Seafood Basket 拆分",
+      "byChannel": {
+        "Square线上": 4,
+        "线下": 1
+      },
+      "total": 5
+    },
+    "Squid Ring": {
+      "category": "Seafood Basket 拆分",
+      "byChannel": {
+        "Square线上": 12,
+        "线下": 10
+      },
+      "total": 22
+    },
+    "Pineapple Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "Square线上": 1,
+        "线下": 3
+      },
+      "total": 4
+    },
+    "Goldband Snapper": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 5,
+        "Square线上": 3
+      },
+      "total": 8
+    },
+    "Sauce portions": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 4
+      },
+      "total": 4
+    },
+    "Cans": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    }
+  },
+  "unknownItems": []
+}

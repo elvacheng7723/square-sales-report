@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-20",
+  "generatedAt": "2026-08-20T13:03:56.837Z",
+  "ordersCount": 32,
+  "channelSummary": {
+    "线下": {
+      "revenueCents": 47939,
+      "orderCount": 22
+    },
+    "Square线上": {
+      "revenueCents": 32990,
+      "orderCount": 8
+    },
+    "Uber Eats": {
+      "revenueCents": 3300,
+      "orderCount": 2
+    }
+  },
+  "totalRevenueCents": 84229
+}
