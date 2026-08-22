@@ -1,0 +1,41 @@
+共拉取到 63 笔已完成订单
+
+=========== 2026-08-22 商品销量汇总 ===========
+
+【商品数量汇总(按渠道拆分)】
+
+-- Fish --
+  Hake Small  合计 37  (Uber Eats: 5, 线下: 24, Square线上: 8)
+  Hake Large  合计 23  (Uber Eats: 4, 线下: 12, Square线上: 7)
+  Goldband Snapper  合计 12  (线下: 10, Square线上: 2)
+  Shark  合计 3  (Square线上: 3)
+  Spanish Mackerel  合计 3  (线下: 2, Square线上: 1)
+  Barramundi  合计 3  (Square线上: 2, 线下: 1)
+  Silver Whiting  合计 1  (Square线上: 1)
+
+-- Extras --
+  Sauce portions  合计 6  (Uber Eats: 1, 线下: 5)
+  Pickled Onions(Jar)  合计 1  (Square线上: 1)
+  Tartare Sauce Jar  合计 1  (Square线上: 1)
+  Tomato Sauce Jar  合计 1  (线下: 1)
+
+-- Drinks --
+  Cans  合计 8  (Uber Eats: 2, 线下: 6)
+  1.25L Drinks  合计 2  (线下: 2)
+  Bundaburg  合计 2  (线下: 2)
+
+-- Old Favourites --
+  Dim Sim  合计 21  (线下: 20, Uber Eats: 1)
+  Potato Scallop  合计 14  (线下: 10, Square线上: 3, Uber Eats: 1)
+  Chiko Roll  合计 4  (线下: 4)
+  Fish Cake  合计 3  (线下: 3)
+  Onion Rings  合计 2  (线下: 1, Uber Eats: 1)
+
+-- Seafood --
+  Squid Ring  合计 54  (Square线上: 12, 线下: 38, Uber Eats: 4)
+  Crab Sticks  合计 25  (线下: 22, Uber Eats: 2, Square线上: 1)
+  Prawns  合计 8  (线下: 6, Uber Eats: 2)
+  Sea Scallops  合计 7  (线下: 4, Uber Eats: 1, Square线上: 2)
+
+-- Something Sweet --
+  Pineapple Fritter  合计 13  (Square线上: 4, 线下: 7, Uber Eats: 2)
