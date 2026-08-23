@@ -1,0 +1,198 @@
+{
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T13:11:21.682Z",
+  "ordersCount": 55,
+  "qtySummary": {
+    "Hake Large": {
+      "category": "Fish",
+      "byChannel": {
+        "DoorDash": 3,
+        "线下": 7,
+        "Square线上": 4
+      },
+      "total": 14
+    },
+    "Crab Sticks": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 9
+      },
+      "total": 9
+    },
+    "Dim Sim": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 9,
+        "DoorDash": 1,
+        "Square线上": 1
+      },
+      "total": 11
+    },
+    "Chiko Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 3,
+        "Square线上": 1
+      },
+      "total": 4
+    },
+    "Hake Small": {
+      "category": "Fish",
+      "byChannel": {
+        "Uber Eats": 1,
+        "Square线上": 6,
+        "线下": 33
+      },
+      "total": 40
+    },
+    "Silver Whiting": {
+      "category": "Fish",
+      "byChannel": {
+        "Square线上": 3,
+        "线下": 3
+      },
+      "total": 6
+    },
+    "Potato Scallop": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "Square线上": 10,
+        "线下": 3
+      },
+      "total": 13
+    },
+    "Pineapple Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "Square线上": 3,
+        "DoorDash": 1,
+        "线下": 4
+      },
+      "total": 8
+    },
+    "Banana Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "Square线上": 1
+      },
+      "total": 1
+    },
+    "Cans": {
+      "category": "Drinks",
+      "byChannel": {
+        "DoorDash": 1,
+        "线下": 4
+      },
+      "total": 5
+    },
+    "Goldband Snapper": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 7,
+        "Square线上": 4
+      },
+      "total": 11
+    },
+    "Squid Ring": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 58,
+        "Square线上": 24
+      },
+      "total": 82
+    },
+    "Prawns": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 10,
+        "Square线上": 4
+      },
+      "total": 14
+    },
+    "Sea Scallops": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 4
+      },
+      "total": 4
+    },
+    "Fish Cake": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Bundaburg": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Fremantle Sardines - 6 per serve": {
+      "category": "Seafood",
+      "byChannel": {
+        "Square线上": 1
+      },
+      "total": 1
+    },
+    "Shark": {
+      "category": "Fish",
+      "byChannel": {
+        "Square线上": 1,
+        "线下": 2
+      },
+      "total": 3
+    },
+    "Spanish Mackerel": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 6
+      },
+      "total": 6
+    },
+    "Sauce portions": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 9
+      },
+      "total": 9
+    },
+    "Tartare Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Spring Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "Square线上": 1
+      },
+      "total": 1
+    },
+    "Pickled Onions(Each)": {
+      "category": "Extras",
+      "byChannel": {
+        "Square线上": 3
+      },
+      "total": 3
+    },
+    "1.25L Drinks": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    }
+  },
+  "unknownItems": [
+    {
+      "name": "Schweppes 301",
+      "qty": 1,
+      "channel": "线下"
+    }
+  ]
+}
