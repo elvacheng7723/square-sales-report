@@ -1,0 +1,223 @@
+{
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T13:02:59.575Z",
+  "ordersCount": 44,
+  "qtySummary": {
+    "Hake Large": {
+      "category": "Fish",
+      "byChannel": {
+        "Uber Eats": 4,
+        "线下": 11,
+        "Square线上": 10
+      },
+      "total": 25
+    },
+    "Hake Small": {
+      "category": "Fish",
+      "byChannel": {
+        "Uber Eats": 6,
+        "线下": 9,
+        "Square线上": 7
+      },
+      "total": 22
+    },
+    "Sauce portions": {
+      "category": "Extras",
+      "byChannel": {
+        "Uber Eats": 7,
+        "线下": 3
+      },
+      "total": 10
+    },
+    "Cans": {
+      "category": "Drinks",
+      "byChannel": {
+        "Uber Eats": 5,
+        "线下": 3
+      },
+      "total": 8
+    },
+    "Barramundi": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Sea Scallops": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 5,
+        "Uber Eats": 1
+      },
+      "total": 6
+    },
+    "Crab Sticks": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 4,
+        "Uber Eats": 3
+      },
+      "total": 7
+    },
+    "Potato Scallop": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 2,
+        "Uber Eats": 3,
+        "Square线上": 15
+      },
+      "total": 20
+    },
+    "Goldband Snapper": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 4,
+        "Uber Eats": 1
+      },
+      "total": 5
+    },
+    "Banana Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "Uber Eats": 1
+      },
+      "total": 1
+    },
+    "Pineapple Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "Uber Eats": 1
+      },
+      "total": 1
+    },
+    "Dim Sim": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "Square线上": 17,
+        "Uber Eats": 2,
+        "线下": 8
+      },
+      "total": 27
+    },
+    "Mussels": {
+      "category": "Seafood",
+      "byChannel": {
+        "Square线上": 2
+      },
+      "total": 2
+    },
+    "Shark": {
+      "category": "Fish",
+      "byChannel": {
+        "Square线上": 1,
+        "线下": 3
+      },
+      "total": 4
+    },
+    "Squid Ring": {
+      "category": "Seafood",
+      "byChannel": {
+        "Square线上": 30,
+        "线下": 18,
+        "Uber Eats": 10
+      },
+      "total": 58
+    },
+    "Prawns": {
+      "category": "Seafood",
+      "byChannel": {
+        "Square线上": 4,
+        "Uber Eats": 4
+      },
+      "total": 8
+    },
+    "Onion Rings": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 2,
+        "Uber Eats": 1
+      },
+      "total": 3
+    },
+    "Spanish Mackerel": {
+      "category": "Fish",
+      "byChannel": {
+        "Uber Eats": 1,
+        "线下": 4
+      },
+      "total": 5
+    },
+    "Oysters": {
+      "category": "Seafood",
+      "byChannel": {
+        "Uber Eats": 2
+      },
+      "total": 2
+    },
+    "ICE TEA 500ml": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Silver Whiting": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Tomato Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Tartare Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Spring Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "Uber Eats": 1
+      },
+      "total": 1
+    },
+    "Pickled Onions(Jar)": {
+      "category": "Extras",
+      "byChannel": {
+        "Square线上": 1
+      },
+      "total": 1
+    },
+    "Fish Cake": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Corn Jack": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Bundaburg": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    }
+  },
+  "unknownItems": []
+}
