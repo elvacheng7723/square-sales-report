@@ -1,0 +1,143 @@
+{
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T13:07:34.806Z",
+  "ordersCount": 30,
+  "qtySummary": {
+    "Hake Small": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 18,
+        "Uber Eats": 2
+      },
+      "total": 20
+    },
+    "Prawns": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 8,
+        "Uber Eats": 3,
+        "Square线上": 4
+      },
+      "total": 15
+    },
+    "Sea Scallops": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 4,
+        "Uber Eats": 1
+      },
+      "total": 5
+    },
+    "Squid Ring": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 16,
+        "Uber Eats": 4,
+        "Square线上": 18
+      },
+      "total": 38
+    },
+    "Crab Sticks": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 4,
+        "DoorDash": 2,
+        "Uber Eats": 1,
+        "Square线上": 1
+      },
+      "total": 8
+    },
+    "Hake Large": {
+      "category": "Fish",
+      "byChannel": {
+        "Uber Eats": 3,
+        "DoorDash": 1,
+        "Square线上": 7,
+        "线下": 1
+      },
+      "total": 12
+    },
+    "Sauce portions": {
+      "category": "Extras",
+      "byChannel": {
+        "Uber Eats": 3,
+        "线下": 6
+      },
+      "total": 9
+    },
+    "Goldband Snapper": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Pickled Onions(Each)": {
+      "category": "Extras",
+      "byChannel": {
+        "DoorDash": 1,
+        "线下": 2
+      },
+      "total": 3
+    },
+    "Spanish Mackerel": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 3
+      },
+      "total": 3
+    },
+    "Chiko Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 3
+      },
+      "total": 3
+    },
+    "Barramundi": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Cans": {
+      "category": "Drinks",
+      "byChannel": {
+        "Uber Eats": 1,
+        "线下": 3
+      },
+      "total": 4
+    },
+    "Pineapple Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "Square线上": 1,
+        "线下": 4
+      },
+      "total": 5
+    },
+    "Dim Sim": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "Uber Eats": 2
+      },
+      "total": 2
+    },
+    "Fish Cake": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Spring Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "Uber Eats": 1
+      },
+      "total": 1
+    }
+  },
+  "unknownItems": []
+}

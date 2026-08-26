@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T13:07:34.807Z",
+  "ordersCount": 30,
+  "channelSummary": {
+    "线下": {
+      "revenueCents": 45098,
+      "orderCount": 22
+    },
+    "Uber Eats": {
+      "revenueCents": 10180,
+      "orderCount": 4
+    },
+    "DoorDash": {
+      "revenueCents": 2320,
+      "orderCount": 1
+    },
+    "Square线上": {
+      "revenueCents": 16590,
+      "orderCount": 3
+    }
+  },
+  "totalRevenueCents": 74188
+}

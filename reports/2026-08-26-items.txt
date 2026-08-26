@@ -1,0 +1,34 @@
+共拉取到 30 笔已完成订单
+
+=========== 2026-08-26 商品销量汇总 ===========
+
+【商品数量汇总(按渠道拆分)】
+
+-- Fish --
+  Hake Small  合计 20  (线下: 18, Uber Eats: 2)
+  Hake Large  合计 12  (Uber Eats: 3, DoorDash: 1, Square线上: 7, 线下: 1)
+  Spanish Mackerel  合计 3  (线下: 3)
+  Goldband Snapper  合计 2  (线下: 2)
+  Barramundi  合计 1  (线下: 1)
+
+-- Seafood --
+  Squid Ring  合计 38  (线下: 16, Uber Eats: 4, Square线上: 18)
+  Prawns  合计 15  (线下: 8, Uber Eats: 3, Square线上: 4)
+  Crab Sticks  合计 8  (线下: 4, DoorDash: 2, Uber Eats: 1, Square线上: 1)
+  Sea Scallops  合计 5  (线下: 4, Uber Eats: 1)
+
+-- Extras --
+  Sauce portions  合计 9  (Uber Eats: 3, 线下: 6)
+  Pickled Onions(Each)  合计 3  (DoorDash: 1, 线下: 2)
+
+-- Old Favourites --
+  Chiko Roll  合计 3  (线下: 3)
+  Dim Sim  合计 2  (Uber Eats: 2)
+  Fish Cake  合计 1  (线下: 1)
+  Spring Roll  合计 1  (Uber Eats: 1)
+
+-- Drinks --
+  Cans  合计 4  (Uber Eats: 1, 线下: 3)
+
+-- Something Sweet --
+  Pineapple Fritter  合计 5  (Square线上: 1, 线下: 4)
