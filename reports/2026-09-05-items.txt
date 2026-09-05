@@ -1,5 +1,43 @@
-共拉取到 0 笔已完成订单
+共拉取到 50 笔已完成订单
 
 =========== 2026-09-05 商品销量汇总 ===========
 
 【商品数量汇总(按渠道拆分)】
+
+-- Fish --
+  Hake Small  合计 32  (Uber Eats: 3, 线下: 28, Square线上: 1)
+  Hake Large  合计 15  (Uber Eats: 1, Square线上: 5, 线下: 8, DoorDash: 1)
+  Goldband Snapper  合计 11  (线下: 10, Square线上: 1)
+  Shark  合计 6  (线下: 6)
+  Silver Whiting  合计 4  (线下: 3, Uber Eats: 1)
+  Barramundi  合计 1  (线下: 1)
+  Spanish Mackerel  合计 1  (线下: 1)
+
+-- Seafood --
+  Squid Ring  合计 44  (Uber Eats: 12, 线下: 20, Square线上: 12)
+  Prawns  合计 13  (Uber Eats: 4, 线下: 9)
+  Sea Scallops  合计 10  (线下: 6, Uber Eats: 4)
+  Crab Sticks  合计 9  (线下: 7, Uber Eats: 1, Square线上: 1)
+  Mussels  合计 6  (Square线上: 6)
+
+-- Old Favourites --
+  Dim Sim  合计 21  (线下: 19, Uber Eats: 2)
+  Potato Scallop  合计 20  (线下: 17, Uber Eats: 3)
+  Chiko Roll  合计 3  (线下: 3)
+  Spring Roll  合计 2  (线下: 1, Uber Eats: 1)
+  Corn Jack  合计 1  (Uber Eats: 1)
+  Fish Cake  合计 1  (线下: 1)
+
+-- Drinks --
+  Cans  合计 8  (Uber Eats: 2, 线下: 6)
+  1.25L Drinks  合计 2  (线下: 2)
+  Bundaburg  合计 2  (线下: 2)
+
+-- Something Sweet --
+  Pineapple Fritter  合计 6  (Uber Eats: 1, Square线上: 1, 线下: 4)
+  Banana Fritter  合计 1  (线下: 1)
+
+-- Extras --
+  Sauce portions  合计 6  (Square线上: 4, Uber Eats: 1, 线下: 1)
+  Tomato Sauce Jar  合计 2  (DoorDash: 1, Uber Eats: 1)
+  Pickled Onions(Jar)  合计 1  (线下: 1)

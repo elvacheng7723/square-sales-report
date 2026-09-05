@@ -1,7 +1,212 @@
 {
   "date": "2026-09-05",
-  "generatedAt": "2026-09-04T16:32:38.149Z",
-  "ordersCount": 0,
-  "qtySummary": {},
+  "generatedAt": "2026-09-05T15:28:09.881Z",
+  "ordersCount": 50,
+  "qtySummary": {
+    "Hake Small": {
+      "category": "Fish",
+      "byChannel": {
+        "Uber Eats": 3,
+        "线下": 28,
+        "Square线上": 1
+      },
+      "total": 32
+    },
+    "Prawns": {
+      "category": "Seafood",
+      "byChannel": {
+        "Uber Eats": 4,
+        "线下": 9
+      },
+      "total": 13
+    },
+    "Squid Ring": {
+      "category": "Seafood",
+      "byChannel": {
+        "Uber Eats": 12,
+        "线下": 20,
+        "Square线上": 12
+      },
+      "total": 44
+    },
+    "Hake Large": {
+      "category": "Fish",
+      "byChannel": {
+        "Uber Eats": 1,
+        "Square线上": 5,
+        "线下": 8,
+        "DoorDash": 1
+      },
+      "total": 15
+    },
+    "Corn Jack": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "Uber Eats": 1
+      },
+      "total": 1
+    },
+    "Cans": {
+      "category": "Drinks",
+      "byChannel": {
+        "Uber Eats": 2,
+        "线下": 6
+      },
+      "total": 8
+    },
+    "Spring Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 1,
+        "Uber Eats": 1
+      },
+      "total": 2
+    },
+    "Crab Sticks": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 7,
+        "Uber Eats": 1,
+        "Square线上": 1
+      },
+      "total": 9
+    },
+    "Pineapple Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "Uber Eats": 1,
+        "Square线上": 1,
+        "线下": 4
+      },
+      "total": 6
+    },
+    "Goldband Snapper": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 10,
+        "Square线上": 1
+      },
+      "total": 11
+    },
+    "Sea Scallops": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 6,
+        "Uber Eats": 4
+      },
+      "total": 10
+    },
+    "Dim Sim": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 19,
+        "Uber Eats": 2
+      },
+      "total": 21
+    },
+    "Sauce portions": {
+      "category": "Extras",
+      "byChannel": {
+        "Square线上": 4,
+        "Uber Eats": 1,
+        "线下": 1
+      },
+      "total": 6
+    },
+    "Shark": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 6
+      },
+      "total": 6
+    },
+    "Silver Whiting": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 3,
+        "Uber Eats": 1
+      },
+      "total": 4
+    },
+    "Potato Scallop": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 17,
+        "Uber Eats": 3
+      },
+      "total": 20
+    },
+    "1.25L Drinks": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Chiko Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 3
+      },
+      "total": 3
+    },
+    "Tomato Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "DoorDash": 1,
+        "Uber Eats": 1
+      },
+      "total": 2
+    },
+    "Bundaburg": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Pickled Onions(Jar)": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Fish Cake": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Barramundi": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Banana Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Spanish Mackerel": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Mussels": {
+      "category": "Seafood",
+      "byChannel": {
+        "Square线上": 6
+      },
+      "total": 6
+    }
+  },
   "unknownItems": []
 }
