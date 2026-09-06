@@ -1,0 +1,44 @@
+共拉取到 65 笔已完成订单
+
+=========== 2026-09-06 商品销量汇总 ===========
+
+【商品数量汇总(按渠道拆分)】
+
+-- Fish --
+  Hake Small  合计 30  (线下: 13, Uber Eats: 9, Square线上: 8)
+  Hake Large  合计 23  (线下: 18, DoorDash: 2, Square线上: 1, Uber Eats: 2)
+  Goldband Snapper  合计 13  (线下: 9, Square线上: 3, Uber Eats: 1)
+  Silver Whiting  合计 4  (Square线上: 4)
+  Barramundi  合计 3  (线下: 3)
+  Spanish Mackerel  合计 3  (线下: 3)
+  Shark  合计 2  (线下: 2)
+
+-- Drinks --
+  Cans  合计 8  (线下: 7, Uber Eats: 1)
+  1.25L Drinks  合计 3  (线下: 3)
+
+-- Extras --
+  Sauce portions  合计 8  (Uber Eats: 2, Square线上: 4, 线下: 2)
+  Pickled Onions(Each)  合计 6  (Square线上: 3, 线下: 3)
+  Pickled Onions(Jar)  合计 2  (线下: 2)
+  Tomato Sauce Jar  合计 1  (线下: 1)
+
+-- Seafood --
+  Squid Ring  合计 68  (Uber Eats: 8, Square线上: 24, 线下: 30, DoorDash: 6)
+  Prawns  合计 26  (Uber Eats: 6, 线下: 14, Square线上: 6)
+  Sea Scallops  合计 15  (Uber Eats: 2, Square线上: 3, 线下: 10)
+  Crab Sticks  合计 15  (Uber Eats: 4, 线下: 8, Square线上: 3)
+  Fremantle Sardines - 6 per serve  合计 1  (Square线上: 1)
+
+-- Something Sweet --
+  Pineapple Fritter  合计 12  (线下: 10, Uber Eats: 1, Square线上: 1)
+  Banana Fritter  合计 1  (Square线上: 1)
+
+-- Old Favourites --
+  Potato Scallop  合计 5  (Uber Eats: 1, Square线上: 4)
+  Dim Sim  合计 5  (线下: 2, DoorDash: 2, Square线上: 1)
+  Chiko Roll  合计 2  (线下: 1, Uber Eats: 1)
+  Onion Rings  合计 2  (线下: 2)
+  Spring Roll  合计 1  (线下: 1)
+  Fish Cake  合计 1  (线下: 1)
+  Corn Jack  合计 1  (Square线上: 1)
