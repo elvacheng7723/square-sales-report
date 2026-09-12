@@ -1,7 +1,182 @@
 {
   "date": "2026-09-12",
-  "generatedAt": "2026-09-11T16:41:23.804Z",
-  "ordersCount": 0,
-  "qtySummary": {},
+  "generatedAt": "2026-09-12T15:45:15.017Z",
+  "ordersCount": 63,
+  "qtySummary": {
+    "Crab Sticks": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 17,
+        "Square线上": 7,
+        "Uber Eats": 3
+      },
+      "total": 27
+    },
+    "Dim Sim": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 20
+      },
+      "total": 20
+    },
+    "Hake Large": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 21,
+        "Uber Eats": 2,
+        "Square线上": 7
+      },
+      "total": 30
+    },
+    "Corn Jack": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 5
+      },
+      "total": 5
+    },
+    "Potato Scallop": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 11,
+        "Square线上": 1
+      },
+      "total": 12
+    },
+    "Hake Small": {
+      "category": "Fish",
+      "byChannel": {
+        "Uber Eats": 4,
+        "Square线上": 3,
+        "线下": 16
+      },
+      "total": 23
+    },
+    "Squid Ring": {
+      "category": "Seafood",
+      "byChannel": {
+        "Uber Eats": 10,
+        "Square线上": 16,
+        "线下": 44
+      },
+      "total": 70
+    },
+    "Goldband Snapper": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 7,
+        "Square线上": 3
+      },
+      "total": 10
+    },
+    "Cans": {
+      "category": "Drinks",
+      "byChannel": {
+        "Uber Eats": 1,
+        "线下": 9
+      },
+      "total": 10
+    },
+    "Sauce portions": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 24,
+        "Uber Eats": 1,
+        "Square线上": 4
+      },
+      "total": 29
+    },
+    "Water Bottle": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Spanish Mackerel": {
+      "category": "Fish",
+      "byChannel": {
+        "Square线上": 1,
+        "线下": 4,
+        "Uber Eats": 1
+      },
+      "total": 6
+    },
+    "Spring Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Prawns": {
+      "category": "Seafood Basket 拆分",
+      "byChannel": {
+        "Square线上": 2,
+        "线下": 6,
+        "Uber Eats": 2
+      },
+      "total": 10
+    },
+    "Sea Scallops": {
+      "category": "Seafood Basket 拆分",
+      "byChannel": {
+        "Square线上": 2,
+        "线下": 2,
+        "Uber Eats": 1
+      },
+      "total": 5
+    },
+    "Mussels": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Bundaburg": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Pineapple Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "线下": 3,
+        "Square线上": 2
+      },
+      "total": 5
+    },
+    "Tartare Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Banana Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "Square线上": 1
+      },
+      "total": 1
+    },
+    "Shark": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "1.25L Drinks": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    }
+  },
   "unknownItems": []
 }
