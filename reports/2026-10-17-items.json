@@ -1,7 +1,281 @@
 {
   "date": "2026-10-17",
-  "generatedAt": "2026-10-16T16:52:12.712Z",
-  "ordersCount": 0,
-  "qtySummary": {},
-  "unknownItems": []
+  "generatedAt": "2026-10-17T15:50:10.131Z",
+  "ordersCount": 66,
+  "qtySummary": {
+    "Hake Large": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 17,
+        "Square线上": 4,
+        "Uber Eats": 3
+      },
+      "total": 24
+    },
+    "Squid Ring": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 58,
+        "Square线上": 14,
+        "Uber Eats": 12,
+        "DoorDash": 4
+      },
+      "total": 88
+    },
+    "Hake Small": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 19,
+        "DoorDash": 11,
+        "Uber Eats": 2,
+        "Square线上": 4
+      },
+      "total": 36
+    },
+    "Bundaburg": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 4
+      },
+      "total": 4
+    },
+    "Cans": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 6,
+        "Uber Eats": 1
+      },
+      "total": 7
+    },
+    "Crab Sticks": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 10,
+        "Uber Eats": 5,
+        "Square线上": 5,
+        "DoorDash": 2
+      },
+      "total": 22
+    },
+    "Prawns": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 11,
+        "Square线上": 10,
+        "DoorDash": 2
+      },
+      "total": 23
+    },
+    "Sea Scallops": {
+      "category": "Seafood",
+      "byChannel": {
+        "线下": 4,
+        "DoorDash": 1,
+        "Square线上": 2,
+        "Uber Eats": 2
+      },
+      "total": 9
+    },
+    "Banana Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "Square线上": 4
+      },
+      "total": 4
+    },
+    "Pineapple Fritter": {
+      "category": "Something Sweet",
+      "byChannel": {
+        "Square线上": 1,
+        "线下": 4,
+        "Uber Eats": 1,
+        "DoorDash": 1
+      },
+      "total": 7
+    },
+    "Spanish Mackerel": {
+      "category": "Fish",
+      "byChannel": {
+        "Square线上": 4,
+        "线下": 1
+      },
+      "total": 5
+    },
+    "Barramundi": {
+      "category": "Fish",
+      "byChannel": {
+        "Square线上": 1,
+        "线下": 4
+      },
+      "total": 5
+    },
+    "Mussels": {
+      "category": "Seafood",
+      "byChannel": {
+        "Square线上": 2
+      },
+      "total": 2
+    },
+    "Potato Scallop": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "Square线上": 5,
+        "线下": 15
+      },
+      "total": 20
+    },
+    "Dim Sim": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "Square线上": 11,
+        "线下": 9,
+        "DoorDash": 1
+      },
+      "total": 21
+    },
+    "Onion Rings": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "Uber Eats": 1,
+        "线下": 1
+      },
+      "total": 2
+    },
+    "Shark": {
+      "category": "Fish",
+      "byChannel": {
+        "Uber Eats": 2,
+        "Square线上": 1,
+        "线下": 1
+      },
+      "total": 4
+    },
+    "Spring Roll": {
+      "category": "Old Favourites",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Silver Whiting": {
+      "category": "Fish",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "ICE TEA 500ml": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Tartare Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Sauce portions": {
+      "category": "Extras",
+      "byChannel": {
+        "Uber Eats": 2,
+        "线下": 2,
+        "Square线上": 2
+      },
+      "total": 6
+    },
+    "Tomato Sauce Jar": {
+      "category": "Extras",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "1.25L Drinks": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    },
+    "Water Bottle": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 2
+      },
+      "total": 2
+    },
+    "Pop-top": {
+      "category": "Drinks",
+      "byChannel": {
+        "线下": 1
+      },
+      "total": 1
+    }
+  },
+  "unknownItems": [
+    {
+      "name": "sweetlip Snapper",
+      "qty": 4,
+      "channel": "线下"
+    },
+    {
+      "name": "Sweetlip Snapper",
+      "qty": 1,
+      "channel": "Square线上"
+    },
+    {
+      "name": "Sweetlip Snapper",
+      "qty": 2,
+      "channel": "Square线上"
+    },
+    {
+      "name": "Sweetlip Snapper",
+      "qty": 1,
+      "channel": "Square线上"
+    },
+    {
+      "name": "Sweetlip Snapper",
+      "qty": 2,
+      "channel": "Square线上"
+    },
+    {
+      "name": "Sweetlip Snapper",
+      "qty": 1,
+      "channel": "Square线上"
+    },
+    {
+      "name": "sweetlip Snapper",
+      "qty": 1,
+      "channel": "线下"
+    },
+    {
+      "name": "sweetlip Snapper",
+      "qty": 1,
+      "channel": "线下"
+    },
+    {
+      "name": "sweetlip Snapper",
+      "qty": 1,
+      "channel": "线下"
+    },
+    {
+      "name": "Schweppes 301",
+      "qty": 1,
+      "channel": "线下"
+    },
+    {
+      "name": "sweetlip Snapper",
+      "qty": 2,
+      "channel": "线下"
+    },
+    {
+      "name": "sweetlip Snapper",
+      "qty": 1,
+      "channel": "线下"
+    }
+  ]
 }
